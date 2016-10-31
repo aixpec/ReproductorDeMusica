@@ -38,7 +38,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AKN-cc-i61">
-                                <state key="normal" title="Shuffle"/>
+                                <state key="normal" title="Aleatorio"/>
+                                <connections>
+                                    <action selector="clickBtnAleatorio" destination="BYZ-38-t0r" eventType="touchUpInside" id="pX0-id-Vy9"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xbl-vY-Mn0">
                                 <state key="normal" title="-"/>

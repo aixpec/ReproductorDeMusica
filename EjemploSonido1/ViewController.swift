@@ -13,6 +13,10 @@ import AVFoundation
 class ViewController: UIViewController {
 
     @IBOutlet weak var iViewPortada: UIImageView!
+    let listaCanciones = ListaCanciones()
+    
+
+    
     
     @IBAction func clickBtnUpVolume() {
         
@@ -43,18 +47,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        do{
-            iViewPortada.image = UIImage(named: cancion.portada.getNombreCompleto())
-            lblNombreCancion.text = cancion.nombre
-            try reproductor = AVAudioPlayer(contentsOf: cancion.getURL())
-            reproductor.volume = 1.0
-            lblVolume.text = String(reproductor.volume)
-            reproductor.play()
-           
+      
+            ReproducciónAutomática(cancionActual: self.cancion)
             
-        }catch{
-            print("Ocurrió un error al reproducir el archivo")
-        }
+      
         
         
         
@@ -82,6 +78,31 @@ class ViewController: UIViewController {
             reproductor.stop()
             reproductor.currentTime = 0.0
         }
+    }
+    
+    
+    func ReproducciónAutomática(cancionActual:Cancion){
+        
+        do{
+            iViewPortada.image = UIImage(named: cancionActual.portada.getNombreCompleto())
+            lblNombreCancion.text = cancionActual.nombre
+            try reproductor = AVAudioPlayer(contentsOf: cancionActual.getURL())
+            reproductor.volume = 1.0
+            lblVolume.text = String(reproductor.volume)
+            reproductor.play()
+
+            
+        }catch{
+            print("Ocurrió un error al reproducir el archivo")
+        }
+
+          }
+    
+    
+    @IBAction func clickBtnAleatorio() {
+        cancion = listaCanciones.devolverCancionAleatoria()
+        ReproducciónAutomática(cancionActual:cancion )
+        
     }
     
     

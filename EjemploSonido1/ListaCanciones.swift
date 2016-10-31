@@ -31,5 +31,16 @@ public class ListaCanciones{
         return nombres
     }
     
+    func devolverCancionAleatoria()->Cancion{
+        
+        let rango = UInt32(self.Canciones.count)
+        
+        //  Make a variable equal to a random number....
+        let randomNum:UInt32 = arc4random_uniform(rango)
+
+        
+        return self.Canciones[Int(randomNum)]
+        
+    }
     
 }
