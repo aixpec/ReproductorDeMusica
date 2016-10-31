@@ -12,6 +12,22 @@
 		9E455AD41DC71510001BECE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E455AD21DC71510001BECE4 /* Main.storyboard */; };
 		9E455AD61DC71510001BECE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E455AD51DC71510001BECE4 /* Assets.xcassets */; };
 		9E455AD91DC71510001BECE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E455AD71DC71510001BECE4 /* LaunchScreen.storyboard */; };
+		9E455AE11DC71650001BECE4 /* example.wma in Resources */ = {isa = PBXBuildFile; fileRef = 9E455AE01DC71650001BECE4 /* example.wma */; };
+		9E455B051DC72A72001BECE4 /* BachGavotteShort.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9E455B001DC72A72001BECE4 /* BachGavotteShort.mp3 */; };
+		9E455B061DC72A72001BECE4 /* DenMeijShort.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9E455B011DC72A72001BECE4 /* DenMeijShort.mp3 */; };
+		9E455B071DC72A72001BECE4 /* HarrisLilliburleroShort.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9E455B021DC72A72001BECE4 /* HarrisLilliburleroShort.mp3 */; };
+		9E455B081DC72A72001BECE4 /* PurcellSongMusShort.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9E455B031DC72A72001BECE4 /* PurcellSongMusShort.mp3 */; };
+		9E455B091DC72A72001BECE4 /* WalloonLilliShort.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9E455B041DC72A72001BECE4 /* WalloonLilliShort.mp3 */; };
+		9E455B0B1DC72C92001BECE4 /* ViewControllerListaCanciones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E455B0A1DC72C92001BECE4 /* ViewControllerListaCanciones.swift */; };
+		9E455B0D1DC72CC5001BECE4 /* Cancion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E455B0C1DC72CC5001BECE4 /* Cancion.swift */; };
+		9E455B0F1DC7309B001BECE4 /* Imagen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E455B0E1DC7309B001BECE4 /* Imagen.swift */; };
+		9E455B151DC734AB001BECE4 /* BachGavotteShort.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9E455B101DC734AB001BECE4 /* BachGavotteShort.jpg */; };
+		9E455B161DC734AB001BECE4 /* DenMeijShort.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9E455B111DC734AB001BECE4 /* DenMeijShort.jpg */; };
+		9E455B171DC734AB001BECE4 /* PurcellSongMusShort.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9E455B121DC734AB001BECE4 /* PurcellSongMusShort.jpg */; };
+		9E455B181DC734AB001BECE4 /* HarrisLilliburleroShort.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9E455B131DC734AB001BECE4 /* HarrisLilliburleroShort.jpg */; };
+		9E455B191DC734AB001BECE4 /* WalloonLilliShort.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9E455B141DC734AB001BECE4 /* WalloonLilliShort.jpg */; };
+		9E455B1B1DC73785001BECE4 /* ListaCanciones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E455B1A1DC73785001BECE4 /* ListaCanciones.swift */; };
+		9E455B1D1DC74A6C001BECE4 /* music.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9E455B1C1DC74A6C001BECE4 /* music.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +38,22 @@
 		9E455AD51DC71510001BECE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E455AD81DC71510001BECE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9E455ADA1DC71511001BECE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E455AE01DC71650001BECE4 /* example.wma */ = {isa = PBXFileReference; lastKnownFileType = file; path = example.wma; sourceTree = "<group>"; };
+		9E455B001DC72A72001BECE4 /* BachGavotteShort.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BachGavotteShort.mp3; sourceTree = "<group>"; };
+		9E455B011DC72A72001BECE4 /* DenMeijShort.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = DenMeijShort.mp3; sourceTree = "<group>"; };
+		9E455B021DC72A72001BECE4 /* HarrisLilliburleroShort.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = HarrisLilliburleroShort.mp3; sourceTree = "<group>"; };
+		9E455B031DC72A72001BECE4 /* PurcellSongMusShort.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PurcellSongMusShort.mp3; sourceTree = "<group>"; };
+		9E455B041DC72A72001BECE4 /* WalloonLilliShort.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = WalloonLilliShort.mp3; sourceTree = "<group>"; };
+		9E455B0A1DC72C92001BECE4 /* ViewControllerListaCanciones.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerListaCanciones.swift; sourceTree = "<group>"; };
+		9E455B0C1DC72CC5001BECE4 /* Cancion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cancion.swift; sourceTree = "<group>"; };
+		9E455B0E1DC7309B001BECE4 /* Imagen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Imagen.swift; sourceTree = "<group>"; };
+		9E455B101DC734AB001BECE4 /* BachGavotteShort.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BachGavotteShort.jpg; sourceTree = "<group>"; };
+		9E455B111DC734AB001BECE4 /* DenMeijShort.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DenMeijShort.jpg; sourceTree = "<group>"; };
+		9E455B121DC734AB001BECE4 /* PurcellSongMusShort.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PurcellSongMusShort.jpg; sourceTree = "<group>"; };
+		9E455B131DC734AB001BECE4 /* HarrisLilliburleroShort.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HarrisLilliburleroShort.jpg; sourceTree = "<group>"; };
+		9E455B141DC734AB001BECE4 /* WalloonLilliShort.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WalloonLilliShort.jpg; sourceTree = "<group>"; };
+		9E455B1A1DC73785001BECE4 /* ListaCanciones.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListaCanciones.swift; sourceTree = "<group>"; };
+		9E455B1C1DC74A6C001BECE4 /* music.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = music.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +86,28 @@
 		9E455ACD1DC71510001BECE4 /* EjemploSonido1 */ = {
 			isa = PBXGroup;
 			children = (
+				9E455AE01DC71650001BECE4 /* example.wma */,
+				9E455B001DC72A72001BECE4 /* BachGavotteShort.mp3 */,
+				9E455B011DC72A72001BECE4 /* DenMeijShort.mp3 */,
+				9E455B021DC72A72001BECE4 /* HarrisLilliburleroShort.mp3 */,
+				9E455B031DC72A72001BECE4 /* PurcellSongMusShort.mp3 */,
+				9E455B101DC734AB001BECE4 /* BachGavotteShort.jpg */,
+				9E455B111DC734AB001BECE4 /* DenMeijShort.jpg */,
+				9E455B121DC734AB001BECE4 /* PurcellSongMusShort.jpg */,
+				9E455B131DC734AB001BECE4 /* HarrisLilliburleroShort.jpg */,
+				9E455B1C1DC74A6C001BECE4 /* music.jpg */,
+				9E455B141DC734AB001BECE4 /* WalloonLilliShort.jpg */,
+				9E455B041DC72A72001BECE4 /* WalloonLilliShort.mp3 */,
 				9E455ACE1DC71510001BECE4 /* AppDelegate.swift */,
 				9E455AD01DC71510001BECE4 /* ViewController.swift */,
 				9E455AD21DC71510001BECE4 /* Main.storyboard */,
 				9E455AD51DC71510001BECE4 /* Assets.xcassets */,
 				9E455AD71DC71510001BECE4 /* LaunchScreen.storyboard */,
 				9E455ADA1DC71511001BECE4 /* Info.plist */,
+				9E455B0A1DC72C92001BECE4 /* ViewControllerListaCanciones.swift */,
+				9E455B0C1DC72CC5001BECE4 /* Cancion.swift */,
+				9E455B0E1DC7309B001BECE4 /* Imagen.swift */,
+				9E455B1A1DC73785001BECE4 /* ListaCanciones.swift */,
 			);
 			path = EjemploSonido1;
 			sourceTree = "<group>";
@@ -96,6 +144,7 @@
 				TargetAttributes = {
 					9E455ACA1DC71510001BECE4 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 37XT4CJ4R9;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -123,8 +172,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E455B091DC72A72001BECE4 /* WalloonLilliShort.mp3 in Resources */,
+				9E455B081DC72A72001BECE4 /* PurcellSongMusShort.mp3 in Resources */,
+				9E455B191DC734AB001BECE4 /* WalloonLilliShort.jpg in Resources */,
+				9E455B061DC72A72001BECE4 /* DenMeijShort.mp3 in Resources */,
+				9E455B151DC734AB001BECE4 /* BachGavotteShort.jpg in Resources */,
+				9E455B1D1DC74A6C001BECE4 /* music.jpg in Resources */,
 				9E455AD91DC71510001BECE4 /* LaunchScreen.storyboard in Resources */,
+				9E455B171DC734AB001BECE4 /* PurcellSongMusShort.jpg in Resources */,
+				9E455B181DC734AB001BECE4 /* HarrisLilliburleroShort.jpg in Resources */,
 				9E455AD61DC71510001BECE4 /* Assets.xcassets in Resources */,
+				9E455AE11DC71650001BECE4 /* example.wma in Resources */,
+				9E455B161DC734AB001BECE4 /* DenMeijShort.jpg in Resources */,
+				9E455B051DC72A72001BECE4 /* BachGavotteShort.mp3 in Resources */,
+				9E455B071DC72A72001BECE4 /* HarrisLilliburleroShort.mp3 in Resources */,
 				9E455AD41DC71510001BECE4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,7 +198,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E455AD11DC71510001BECE4 /* ViewController.swift in Sources */,
+				9E455B0B1DC72C92001BECE4 /* ViewControllerListaCanciones.swift in Sources */,
+				9E455B0F1DC7309B001BECE4 /* Imagen.swift in Sources */,
+				9E455B1B1DC73785001BECE4 /* ListaCanciones.swift in Sources */,
 				9E455ACF1DC71510001BECE4 /* AppDelegate.swift in Sources */,
+				9E455B0D1DC72CC5001BECE4 /* Cancion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +325,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 37XT4CJ4R9;
 				INFOPLIST_FILE = EjemploSonido1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aixpec.EjemploSonido1;
@@ -272,6 +338,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 37XT4CJ4R9;
 				INFOPLIST_FILE = EjemploSonido1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aixpec.EjemploSonido1;
@@ -299,6 +366,7 @@
 				9E455ADF1DC71511001BECE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
